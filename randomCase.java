@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 public class randomCase {
     public static void main(String[] args) throws IOException {
-        //Generates a random integer with specified range. Made by Ian
+        //Generates a random integer with specified range. Made by Ian. As an approximation, you can generate 1 million cases with a range from 0 to 1 billion in a matter of seconds.
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("random.txt")));
         Scanner br = new Scanner(System.in);
         System.out.println("What is your min value?");
